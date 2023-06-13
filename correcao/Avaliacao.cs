@@ -27,13 +27,13 @@ namespace correcao
 
         }
 
-        private void bt_avaliar_Click(object sender, EventArgs e)
+        public int Metodo(int contador)
         {
-            string[] gabarito = { "A", "B", "D", "E", "C", "A", "A", "D", "E", "B"};
+            string[] gabarito = { "A", "B", "D", "E", "C", "A", "A", "D", "E", "B" };
 
-            int contador = 0;
-            
-            if (gabarito[0] == textBox1.Text )
+            contador = 0;
+
+            if (gabarito[0] == textBox1.Text)
             {
                 contador++;
             }
@@ -74,8 +74,14 @@ namespace correcao
                 contador++;
             }
 
-            lb_resultado.Text = "Resultado: " + contador.ToString() + " acertos.";
+            lb_resultado.Text = "Resultado " + contador.ToString() + " acertos.";
+            return contador;
+        }
 
+        private void bt_avaliar_Click(object sender, EventArgs e)
+        {
+            int contador = 0;
+            lb_resultado.Text = "Resultado " + Metodo(contador).ToString() + " acertos.";
         }
     }
 }
