@@ -1,0 +1,12 @@
+C:\Users\2022102020057\source\repos\correcao\correcao\bin\Debug\correcao.exe.config
+C:\Users\2022102020057\source\repos\correcao\correcao\bin\Debug\correcao.exe
+C:\Users\2022102020057\source\repos\correcao\correcao\bin\Debug\correcao.pdb
+C:\Users\2022102020057\source\repos\correcao\correcao\obj\Debug\correcao.csproj.AssemblyReference.cache
+C:\Users\2022102020057\source\repos\correcao\correcao\obj\Debug\correcao.csproj.SuggestedBindingRedirects.cache
+C:\Users\2022102020057\source\repos\correcao\correcao\obj\Debug\correcao.avaliacao.resources
+C:\Users\2022102020057\source\repos\correcao\correcao\obj\Debug\correcao.Correcao.resources
+C:\Users\2022102020057\source\repos\correcao\correcao\obj\Debug\correcao.Properties.Resources.resources
+C:\Users\2022102020057\source\repos\correcao\correcao\obj\Debug\correcao.csproj.GenerateResource.cache
+C:\Users\2022102020057\source\repos\correcao\correcao\obj\Debug\correcao.csproj.CoreCompileInputs.cache
+C:\Users\2022102020057\source\repos\correcao\correcao\obj\Debug\correcao.exe
+C:\Users\2022102020057\source\repos\correcao\correcao\obj\Debug\correcao.pdb
