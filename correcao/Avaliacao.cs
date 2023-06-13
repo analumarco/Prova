@@ -33,48 +33,57 @@ namespace correcao
 
             contador = 0;
 
-            if (gabarito[0] == textBox1.Text)
+            
+            
+            try
             {
-                contador++;
-            }
-            if (gabarito[1] == textBox2.Text)
-            {
-                contador++;
-            }
-            if (gabarito[2] == textBox3.Text)
-            {
-                contador++;
-            }
-            if (gabarito[3] == textBox4.Text)
-            {
-                contador++;
-            }
-            if (gabarito[4] == textBox5.Text)
-            {
-                contador++;
-            }
-            if (gabarito[5] == textBox6.Text)
-            {
-                contador++;
-            }
-            if (gabarito[6] == textBox7.Text)
-            {
-                contador++;
-            }
-            if (gabarito[7] == textBox8.Text)
-            {
-                contador++;
-            }
-            if (gabarito[8] == textBox9.Text)
-            {
-                contador++;
-            }
-            if (gabarito[9] == textBox10.Text)
-            {
-                contador++;
-            }
+                if (gabarito[0] == textBox1.Text.ToUpper())
+                {
+                    contador++;
+                }
+                if (gabarito[1] == textBox2.Text.ToUpper())
+                {
+                    contador++;
+                }
+                if (gabarito[2] == textBox3.Text.ToUpper())
+                {
+                    contador++;
+                }
+                if (gabarito[3] == textBox4.Text.ToUpper())
+                {
+                    contador++;
+                }
+                if (gabarito[4] == textBox5.Text.ToUpper())
+                {
+                    contador++;
+                }
+                if (gabarito[5] == textBox6.Text.ToUpper())
+                {
+                    contador++;
+                }
+                if (gabarito[6] == textBox7.Text.ToUpper())
+                {
+                    contador++;
+                }
+                if (gabarito[7] == textBox8.Text.ToUpper())
+                {
+                    contador++;
+                }
+                if (gabarito[8] == textBox9.Text.ToUpper())
+                {
+                    contador++;
+                }
+                if (gabarito[9] == textBox10.Text.ToUpper())
+                {
+                    contador++;
+                }
 
-            lb_resultado.Text = "Resultado " + contador.ToString() + " acertos.";
+                lb_resultado.Text = "Resultado " + contador.ToString() + " acertos.";
+                return contador;
+            } catch (Exception ex)
+            {
+                lb_resultado.Text = "Algo deu errado!";
+            }
             return contador;
         }
 
